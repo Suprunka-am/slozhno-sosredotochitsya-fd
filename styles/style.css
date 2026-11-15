@@ -404,9 +404,6 @@
     margin-block-end: 32px;
   }
 
-  /* .title_concentrate {
-    max-width: 236px;
-  } */
   .concentrate {
     margin-block-end: 50px;
   }
@@ -464,6 +461,7 @@
     flex-direction: column;
     gap: 10px;
   }
+
 /* Оформление подвала  */
   .footer {
     margin-block-start: 40px;
@@ -477,7 +475,6 @@
 }
 
 /*Для экранов меньше 1024px */
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
    min-height: 1024px;
@@ -545,7 +542,6 @@
     flex: 1 0 auto;
     width: 100%;
   }
-}
 
 /* Оформление подвала  */
 .footer__title {
@@ -556,5 +552,5 @@
     padding: 262px 10px;
     min-height: 1024px;
   }
-
+}
 
