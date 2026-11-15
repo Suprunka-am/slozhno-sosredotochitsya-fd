@@ -344,7 +344,7 @@
   .header {
     margin-block-end: 40px;
     padding: 10px;
-    min-height: 1024px;
+    min-height: 668px;
   }
 
   .header__theme-menu-list {
@@ -401,14 +401,14 @@
   }
 
   .focus {
-    margin-block-end: 115px;
+    margin-block-end: 32px;
   }
 
-  .title_concentrate {
+  /* .title_concentrate {
     max-width: 236px;
-  }
+  } */
   .concentrate {
-    margin-block-end: 55px;
+    margin-block-end: 50px;
   }
 
   .concentrate__container {
@@ -467,6 +467,8 @@
 /* Оформление подвала  */
   .footer {
     margin-block-start: 40px;
+    padding: 262px 10px;
+    min-height: 668px;
   }
 
   .footer__title {
@@ -477,6 +479,9 @@
 /*Для экранов меньше 1024px */
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+   min-height: 1024px;
+  }
   .header__theme-menu {
     justify-self: end;
     margin-block-start: 167px;
@@ -491,7 +496,7 @@
     margin-left: -3%;
   }
 
-   .title_concentrate {
+  .title_concentrate {
     max-width: 236px;
   }
 
@@ -510,6 +515,10 @@
 
   .concentrate__container {
     grid-template-columns: auto;
+  }
+
+  .focus {
+    margin-block-end: 60px;
   }
 
   .section__title {
@@ -539,24 +548,13 @@
 }
 
 /* Оформление подвала  */
-@media (min-width: 320px) and (max-width: 768px) {
-     .footer__title {
-      font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+.footer__title {
+   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     }
 
-    .footer {
-      /* margin-top: 40px; */
-      padding: 262px 10px;
-      /* margin-block-start: 30px; */
-      min-height: 1024px;
-    }
-  }
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .footer {
-    margin-block-start: 60px;
-    min-height: 768px;
+ .footer {
+    padding: 262px 10px;
+    min-height: 1024px;
   }
 
 
-}
